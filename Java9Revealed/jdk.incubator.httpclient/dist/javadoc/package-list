@@ -1,0 +1,5 @@
+jdk.incubator.http
+jdk.incubator.http.internal.common
+jdk.incubator.http.internal.frame
+jdk.incubator.http.internal.hpack
+jdk.incubator.http.internal.websocket

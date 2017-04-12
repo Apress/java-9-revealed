@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Main-Class: com.jdojo.intruder.TestManifestAttributes
+Add-Opens: java.base/java.lang

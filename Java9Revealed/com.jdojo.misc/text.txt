@@ -1,0 +1,578 @@
+@Deprecated java.lang.ClassLoader javax.tools.ToolProvider.getSystemToolClassLoader()
+@Deprecated java.awt.event.KeyEvent(java.awt.Component,int,long,int,int)
+@Deprecated void java.awt.event.KeyEvent.setModifiers(int)
+@Deprecated class javax.lang.model.util.AbstractAnnotationValueVisitor6
+@Deprecated class javax.lang.model.util.AbstractElementVisitor6
+@Deprecated class javax.lang.model.util.AbstractTypeVisitor6
+@Deprecated class javax.lang.model.util.ElementKindVisitor6
+@Deprecated class javax.lang.model.util.ElementScanner6
+@Deprecated class javax.lang.model.util.SimpleAnnotationValueVisitor6
+@Deprecated class javax.lang.model.util.SimpleElementVisitor6
+@Deprecated class javax.lang.model.util.SimpleTypeVisitor6
+@Deprecated class javax.lang.model.util.TypeKindVisitor6
+@Deprecated javax.swing.text.html.FormView.SUBMIT
+@Deprecated javax.swing.text.html.FormView.RESET
+@Deprecated void javax.swing.text.html.HTMLEditorKit.InsertHTMLTextAction.insertAtBoundry(javax.swing.JEditorPane,javax.swing.text.html.HTMLDocument,int,javax.swing.text.Element,java.lang.String,javax.swing.text.html.HTML.Tag,javax.swing.text.html.HTML.Tag)
+@Deprecated javax.management.openmbean.OpenType.ALLOWED_CLASSNAMES
+@Deprecated(since="5") class org.xml.sax.helpers.ParserFactory
+@Deprecated(since="9") class org.xml.sax.helpers.XMLReaderFactory
+@Deprecated org.omg.CORBA.Principal org.omg.CORBA.portable.InputStream.read_Principal()
+@Deprecated void org.omg.CORBA.portable.OutputStream.write_Principal(org.omg.CORBA.Principal)
+@Deprecated class javax.swing.plaf.metal.MetalComboBoxUI.MetalComboPopup
+@Deprecated void javax.swing.plaf.metal.MetalComboBoxUI.editablePropertyChanged(java.beans.PropertyChangeEvent)
+@Deprecated void javax.swing.plaf.metal.MetalComboBoxUI.removeListeners()
+@Deprecated void javax.swing.plaf.metal.MetalScrollPaneUI.uninstallListeners(javax.swing.JScrollPane)
+@Deprecated java.util.Date(int,int,int)
+@Deprecated java.util.Date(int,int,int,int,int)
+@Deprecated java.util.Date(int,int,int,int,int,int)
+@Deprecated java.util.Date(java.lang.String)
+@Deprecated long java.util.Date.UTC(int,int,int,int,int,int)
+@Deprecated long java.util.Date.parse(java.lang.String)
+@Deprecated int java.util.Date.getYear()
+@Deprecated void java.util.Date.setYear(int)
+@Deprecated int java.util.Date.getMonth()
+@Deprecated void java.util.Date.setMonth(int)
+@Deprecated int java.util.Date.getDate()
+@Deprecated void java.util.Date.setDate(int)
+@Deprecated int java.util.Date.getDay()
+@Deprecated int java.util.Date.getHours()
+@Deprecated void java.util.Date.setHours(int)
+@Deprecated int java.util.Date.getMinutes()
+@Deprecated void java.util.Date.setMinutes(int)
+@Deprecated int java.util.Date.getSeconds()
+@Deprecated void java.util.Date.setSeconds(int)
+@Deprecated java.lang.String java.util.Date.toLocaleString()
+@Deprecated java.lang.String java.util.Date.toGMTString()
+@Deprecated int java.util.Date.getTimezoneOffset()
+@Deprecated(since="9") class java.util.Observable
+@Deprecated(since="9") interface java.util.Observer
+@Deprecated void java.util.Properties.save(java.io.OutputStream,java.lang.String)
+@Deprecated(since="9") java.lang.Boolean(boolean)
+@Deprecated(since="9") java.lang.Boolean(java.lang.String)
+@Deprecated(since="9") java.lang.Byte(byte)
+@Deprecated(since="9") java.lang.Byte(java.lang.String)
+@Deprecated(since="1.5") java.lang.Character.UnicodeBlock.SURROGATES_AREA
+@Deprecated(since="9") java.lang.Character(char)
+@Deprecated(since="1.1") boolean java.lang.Character.isJavaLetter(char)
+@Deprecated(since="1.1") boolean java.lang.Character.isJavaLetterOrDigit(char)
+@Deprecated(since="1.1") boolean java.lang.Character.isSpace(char)
+@Deprecated(since="9") null java.lang.Class.newInstance()
+@Deprecated(since="1.1") java.lang.Class java.lang.ClassLoader.defineClass(byte[],int,int)
+@Deprecated(since="9") java.lang.Package java.lang.ClassLoader.getPackage(java.lang.String)
+@Deprecated(since="9", forRemoval=true) class java.lang.Compiler
+@Deprecated(since="9") java.lang.Double(double)
+@Deprecated(since="9") java.lang.Double(java.lang.String)
+@Deprecated(since="9") java.lang.Float(float)
+@Deprecated(since="9") java.lang.Float(double)
+@Deprecated(since="9") java.lang.Float(java.lang.String)
+@Deprecated(since="9") java.lang.Integer(int)
+@Deprecated(since="9") java.lang.Integer(java.lang.String)
+@Deprecated(since="9") java.lang.Long(long)
+@Deprecated(since="9") java.lang.Long(java.lang.String)
+@Deprecated(since="9") java.lang.Package java.lang.Package.getPackage(java.lang.String)
+@Deprecated(since="1.2", forRemoval=true) void java.lang.Runtime.runFinalizersOnExit(boolean)
+@Deprecated(since="9", forRemoval=true) void java.lang.Runtime.traceInstructions(boolean)
+@Deprecated(since="9", forRemoval=true) void java.lang.Runtime.traceMethodCalls(boolean)
+@Deprecated(since="1.1", forRemoval=true) java.io.InputStream java.lang.Runtime.getLocalizedInputStream(java.io.InputStream)
+@Deprecated(since="1.1", forRemoval=true) java.io.OutputStream java.lang.Runtime.getLocalizedOutputStream(java.io.OutputStream)
+@Deprecated(since="1.2", forRemoval=true) java.lang.SecurityManager.inCheck
+@Deprecated(since="1.2", forRemoval=true) boolean java.lang.SecurityManager.getInCheck()
+@Deprecated(since="1.2", forRemoval=true) java.lang.ClassLoader java.lang.SecurityManager.currentClassLoader()
+@Deprecated(since="1.2", forRemoval=true) java.lang.Class java.lang.SecurityManager.currentLoadedClass()
+@Deprecated(since="1.2", forRemoval=true) int java.lang.SecurityManager.classDepth(java.lang.String)
+@Deprecated(since="1.2", forRemoval=true) int java.lang.SecurityManager.classLoaderDepth()
+@Deprecated(since="1.2", forRemoval=true) boolean java.lang.SecurityManager.inClass(java.lang.String)
+@Deprecated(since="1.2", forRemoval=true) boolean java.lang.SecurityManager.inClassLoader()
+@Deprecated(since="1.4") void java.lang.SecurityManager.checkMulticast(java.net.InetAddress,byte)
+@Deprecated(since="1.8", forRemoval=true) boolean java.lang.SecurityManager.checkTopLevelWindow(java.lang.Object)
+@Deprecated(since="1.8", forRemoval=true) void java.lang.SecurityManager.checkSystemClipboardAccess()
+@Deprecated(since="1.8", forRemoval=true) void java.lang.SecurityManager.checkAwtEventQueueAccess()
+@Deprecated(since="1.8", forRemoval=true) void java.lang.SecurityManager.checkMemberAccess(java.lang.Class,int)
+@Deprecated(since="9") java.lang.Short(short)
+@Deprecated(since="9") java.lang.Short(java.lang.String)
+@Deprecated(since="1.1") java.lang.String(byte[],int,int,int)
+@Deprecated(since="1.1") java.lang.String(byte[],int)
+@Deprecated(since="1.1") void java.lang.String.getBytes(int,int,byte[],int)
+@Deprecated(since="1.2", forRemoval=true) void java.lang.System.runFinalizersOnExit(boolean)
+@Deprecated(since="1.2") void java.lang.Thread.stop()
+@Deprecated(since="1.2", forRemoval=true) void java.lang.Thread.stop(java.lang.Throwable)
+@Deprecated(since="1.5", forRemoval=true) void java.lang.Thread.destroy()
+@Deprecated(since="1.2") void java.lang.Thread.suspend()
+@Deprecated(since="1.2") void java.lang.Thread.resume()
+@Deprecated(since="1.2", forRemoval=true) int java.lang.Thread.countStackFrames()
+@Deprecated(since="1.2") void java.lang.ThreadGroup.stop()
+@Deprecated(since="1.2") void java.lang.ThreadGroup.suspend()
+@Deprecated(since="1.2") void java.lang.ThreadGroup.resume()
+@Deprecated(since="1.2") boolean java.lang.ThreadGroup.allowThreadSuspension(boolean)
+@Deprecated javax.imageio.spi.ImageReaderSpi.STANDARD_INPUT_TYPE
+@Deprecated javax.imageio.spi.ImageWriterSpi.STANDARD_OUTPUT_TYPE
+@Deprecated(since="9") java.security.AuthProvider(java.lang.String,double,java.lang.String)
+@Deprecated(since="1.2", forRemoval=true) interface java.security.Certificate
+@Deprecated(since="1.2", forRemoval=true) class java.security.Identity
+@Deprecated(since="1.2", forRemoval=true) class java.security.IdentityScope
+@Deprecated(since="9") java.security.Provider(java.lang.String,double,java.lang.String)
+@Deprecated(since="9") double java.security.Provider.getVersion()
+@Deprecated java.lang.String java.security.Security.getAlgorithmProperty(java.lang.String,java.lang.String)
+@Deprecated void java.security.Signature.setParameter(java.lang.String,java.lang.Object)
+@Deprecated java.lang.Object java.security.Signature.getParameter(java.lang.String)
+@Deprecated void java.security.SignatureSpi.engineSetParameter(java.lang.String,java.lang.Object)
+@Deprecated java.lang.Object java.security.SignatureSpi.engineGetParameter(java.lang.String)
+@Deprecated(since="1.2", forRemoval=true) class java.security.Signer
+@Deprecated java.lang.String java.io.ByteArrayOutputStream.toString(int)
+@Deprecated java.lang.String java.io.DataInputStream.readLine()
+@Deprecated java.net.URL java.io.File.toURL()
+@Deprecated class java.io.LineNumberInputStream
+@Deprecated java.lang.String java.io.ObjectInputStream.readLine()
+@Deprecated void java.io.ObjectOutputStream.PutField.write(java.io.ObjectOutput)
+@Deprecated java.io.StreamTokenizer(java.io.InputStream)
+@Deprecated class java.io.StringBufferInputStream
+@Deprecated(since="9") java.awt.Rectangle javax.swing.plaf.multi.MultiTextUI.modelToView(javax.swing.text.JTextComponent,int)
+@Deprecated(since="9") java.awt.Rectangle javax.swing.plaf.multi.MultiTextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position.Bias)
+@Deprecated(since="9") int javax.swing.plaf.multi.MultiTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)
+@Deprecated(since="9") int javax.swing.plaf.multi.MultiTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position.Bias[])
+@Deprecated(since="1.4", forRemoval=true) class javax.security.auth.Policy
+@Deprecated(since="9") class java.applet.Applet
+@Deprecated(since="9") interface java.applet.AppletContext
+@Deprecated(since="9") interface java.applet.AppletStub
+@Deprecated(since="9") interface java.applet.AudioClip
+@Deprecated javax.swing.table.TableColumn.resizedPostingDisableCount
+@Deprecated void javax.swing.table.TableColumn.disableResizedPosting()
+@Deprecated void javax.swing.table.TableColumn.enableResizedPosting()
+@Deprecated class javax.management.loading.DefaultLoaderRepository
+@Deprecated java.util.jar.Attributes.Name.EXTENSION_INSTALLATION
+@Deprecated java.util.jar.Attributes.Name.IMPLEMENTATION_VENDOR_ID
+@Deprecated java.util.jar.Attributes.Name.IMPLEMENTATION_URL
+@Deprecated(forRemoval=true) java.lang.Class sun.reflect.Reflection.getCallerClass(int)
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.Certificate
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.CertificateEncodingException
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.CertificateException
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.CertificateExpiredException
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.CertificateNotYetValidException
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.CertificateParsingException
+@Deprecated(since="9", forRemoval=true) class javax.security.cert.X509Certificate
+@Deprecated java.awt.datatransfer.DataFlavor.plainTextFlavor
+@Deprecated boolean java.awt.datatransfer.DataFlavor.equals(java.lang.String)
+@Deprecated java.lang.String java.awt.datatransfer.DataFlavor.normalizeMimeTypeParameter(java.lang.String,java.lang.String)
+@Deprecated java.lang.String java.awt.datatransfer.DataFlavor.normalizeMimeType(java.lang.String)
+@Deprecated class java.rmi.RMISecurityException
+@Deprecated java.rmi.RMISecurityException(java.lang.String)
+@Deprecated java.rmi.RMISecurityException(java.lang.String,java.lang.String)
+@Deprecated class java.rmi.RMISecurityManager
+@Deprecated class java.rmi.ServerRuntimeException
+@Deprecated java.rmi.ServerRuntimeException(java.lang.String,java.lang.Exception)
+@Deprecated class javax.management.remote.rmi.RMIIIOPServerImpl
+@Deprecated javax.management.AttributeValueExp()
+@Deprecated void javax.management.AttributeValueExp.setMBeanServer(javax.management.MBeanServer)
+@Deprecated class javax.management.DefaultLoaderRepository
+@Deprecated(since="1.5") java.io.ObjectInputStream javax.management.MBeanServer.deserialize(javax.management.ObjectName,byte[])
+@Deprecated(since="1.5") java.io.ObjectInputStream javax.management.MBeanServer.deserialize(java.lang.String,byte[])
+@Deprecated(since="1.5") java.io.ObjectInputStream javax.management.MBeanServer.deserialize(java.lang.String,javax.management.ObjectName,byte[])
+@Deprecated void javax.management.StringValueExp.setMBeanServer(javax.management.MBeanServer)
+@Deprecated void javax.management.ValueExp.setMBeanServer(javax.management.MBeanServer)
+@Deprecated boolean java.rmi.dgc.VMID.isUnique()
+@Deprecated @interface javax.jws.soap.InitParam
+@Deprecated @interface javax.jws.soap.SOAPMessageHandler
+@Deprecated @interface javax.jws.soap.SOAPMessageHandlers
+@Deprecated(since="9") java.math.BigDecimal.ROUND_UP
+@Deprecated(since="9") java.math.BigDecimal.ROUND_DOWN
+@Deprecated(since="9") java.math.BigDecimal.ROUND_CEILING
+@Deprecated(since="9") java.math.BigDecimal.ROUND_FLOOR
+@Deprecated(since="9") java.math.BigDecimal.ROUND_HALF_UP
+@Deprecated(since="9") java.math.BigDecimal.ROUND_HALF_DOWN
+@Deprecated(since="9") java.math.BigDecimal.ROUND_HALF_EVEN
+@Deprecated(since="9") java.math.BigDecimal.ROUND_UNNECESSARY
+@Deprecated(since="9") java.math.BigDecimal java.math.BigDecimal.divide(java.math.BigDecimal,int,int)
+@Deprecated(since="9") java.math.BigDecimal java.math.BigDecimal.divide(java.math.BigDecimal,int)
+@Deprecated(since="9") java.math.BigDecimal java.math.BigDecimal.setScale(int,int)
+@Deprecated java.lang.Number javax.management.monitor.CounterMonitor.getDerivedGauge()
+@Deprecated long javax.management.monitor.CounterMonitor.getDerivedGaugeTimeStamp()
+@Deprecated java.lang.Number javax.management.monitor.CounterMonitor.getThreshold()
+@Deprecated void javax.management.monitor.CounterMonitor.setThreshold(java.lang.Number)
+@Deprecated java.lang.Number javax.management.monitor.CounterMonitorMBean.getDerivedGauge()
+@Deprecated long javax.management.monitor.CounterMonitorMBean.getDerivedGaugeTimeStamp()
+@Deprecated java.lang.Number javax.management.monitor.CounterMonitorMBean.getThreshold()
+@Deprecated void javax.management.monitor.CounterMonitorMBean.setThreshold(java.lang.Number)
+@Deprecated java.lang.Number javax.management.monitor.GaugeMonitor.getDerivedGauge()
+@Deprecated long javax.management.monitor.GaugeMonitor.getDerivedGaugeTimeStamp()
+@Deprecated java.lang.Number javax.management.monitor.GaugeMonitorMBean.getDerivedGauge()
+@Deprecated long javax.management.monitor.GaugeMonitorMBean.getDerivedGaugeTimeStamp()
+@Deprecated javax.management.monitor.Monitor.alreadyNotified
+@Deprecated javax.management.monitor.Monitor.dbgTag
+@Deprecated javax.management.ObjectName javax.management.monitor.Monitor.getObservedObject()
+@Deprecated void javax.management.monitor.Monitor.setObservedObject(javax.management.ObjectName)
+@Deprecated javax.management.ObjectName javax.management.monitor.MonitorMBean.getObservedObject()
+@Deprecated void javax.management.monitor.MonitorMBean.setObservedObject(javax.management.ObjectName)
+@Deprecated java.lang.String javax.management.monitor.StringMonitor.getDerivedGauge()
+@Deprecated long javax.management.monitor.StringMonitor.getDerivedGaugeTimeStamp()
+@Deprecated java.lang.String javax.management.monitor.StringMonitorMBean.getDerivedGauge()
+@Deprecated long javax.management.monitor.StringMonitorMBean.getDerivedGaugeTimeStamp()
+@Deprecated(since="5") interface org.xml.sax.AttributeList
+@Deprecated(since="5") interface org.xml.sax.DocumentHandler
+@Deprecated(since="5") interface org.xml.sax.Parser
+@Deprecated java.lang.String javax.jws.HandlerChain.name()
+@Deprecated(since="9") java.util.logging.LoggingMXBean java.util.logging.LogManager.getLoggingMXBean()
+@Deprecated void java.util.logging.LogRecord.setMillis(long)
+@Deprecated java.util.logging.Logger.global
+@Deprecated void java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+@Deprecated void java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object)
+@Deprecated void java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Object[])
+@Deprecated void java.util.logging.Logger.logrb(java.util.logging.Level,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Throwable)
+@Deprecated(since="9") interface java.util.logging.LoggingMXBean
+@Deprecated org.omg.CORBA.Principal org.omg.CORBA.Any.extract_Principal()
+@Deprecated void org.omg.CORBA.Any.insert_Principal(org.omg.CORBA.Principal)
+@Deprecated interface org.omg.CORBA.DynAny
+@Deprecated interface org.omg.CORBA.DynArray
+@Deprecated interface org.omg.CORBA.DynEnum
+@Deprecated interface org.omg.CORBA.DynFixed
+@Deprecated interface org.omg.CORBA.DynSequence
+@Deprecated interface org.omg.CORBA.DynStruct
+@Deprecated interface org.omg.CORBA.DynUnion
+@Deprecated interface org.omg.CORBA.DynValue
+@Deprecated class org.omg.CORBA.DynamicImplementation
+@Deprecated void org.omg.CORBA.DynamicImplementation.invoke(org.omg.CORBA.ServerRequest)
+@Deprecated org.omg.CORBA.TypeCode org.omg.CORBA.ORB.create_recursive_sequence_tc(int,int)
+@Deprecated org.omg.CORBA.Current org.omg.CORBA.ORB.get_current()
+@Deprecated org.omg.CORBA.DynAny org.omg.CORBA.ORB.create_dyn_any(org.omg.CORBA.Any)
+@Deprecated org.omg.CORBA.DynAny org.omg.CORBA.ORB.create_basic_dyn_any(org.omg.CORBA.TypeCode)
+@Deprecated org.omg.CORBA.DynStruct org.omg.CORBA.ORB.create_dyn_struct(org.omg.CORBA.TypeCode)
+@Deprecated org.omg.CORBA.DynSequence org.omg.CORBA.ORB.create_dyn_sequence(org.omg.CORBA.TypeCode)
+@Deprecated org.omg.CORBA.DynArray org.omg.CORBA.ORB.create_dyn_array(org.omg.CORBA.TypeCode)
+@Deprecated org.omg.CORBA.DynUnion org.omg.CORBA.ORB.create_dyn_union(org.omg.CORBA.TypeCode)
+@Deprecated org.omg.CORBA.DynEnum org.omg.CORBA.ORB.create_dyn_enum(org.omg.CORBA.TypeCode)
+@Deprecated class org.omg.CORBA.Principal
+@Deprecated void org.omg.CORBA.Principal.name(byte[])
+@Deprecated byte[] org.omg.CORBA.Principal.name()
+@Deprecated class org.omg.CORBA.PrincipalHolder
+@Deprecated java.lang.String org.omg.CORBA.ServerRequest.op_name()
+@Deprecated void org.omg.CORBA.ServerRequest.params(org.omg.CORBA.NVList)
+@Deprecated void org.omg.CORBA.ServerRequest.result(org.omg.CORBA.Any)
+@Deprecated void org.omg.CORBA.ServerRequest.except(org.omg.CORBA.Any)
+@Deprecated org.omg.CORBA.TCKind(int)
+@Deprecated(since="1.2") java.math.BigDecimal java.sql.CallableStatement.getBigDecimal(int,int)
+@Deprecated(since="1.2") java.sql.Date(int,int,int)
+@Deprecated(since="1.2") int java.sql.Date.getHours()
+@Deprecated(since="1.2") int java.sql.Date.getMinutes()
+@Deprecated(since="1.2") int java.sql.Date.getSeconds()
+@Deprecated(since="1.2") void java.sql.Date.setHours(int)
+@Deprecated(since="1.2") void java.sql.Date.setMinutes(int)
+@Deprecated(since="1.2") void java.sql.Date.setSeconds(int)
+@Deprecated(since="1.2") void java.sql.DriverManager.setLogStream(java.io.PrintStream)
+@Deprecated(since="1.2") java.io.PrintStream java.sql.DriverManager.getLogStream()
+@Deprecated(since="1.2") void java.sql.PreparedStatement.setUnicodeStream(int,java.io.InputStream,int)
+@Deprecated(since="1.2") java.math.BigDecimal java.sql.ResultSet.getBigDecimal(int,int)
+@Deprecated(since="1.2") java.io.InputStream java.sql.ResultSet.getUnicodeStream(int)
+@Deprecated(since="1.2") java.math.BigDecimal java.sql.ResultSet.getBigDecimal(java.lang.String,int)
+@Deprecated(since="1.2") java.io.InputStream java.sql.ResultSet.getUnicodeStream(java.lang.String)
+@Deprecated(since="1.2") java.sql.Time(int,int,int)
+@Deprecated(since="1.2") int java.sql.Time.getYear()
+@Deprecated(since="1.2") int java.sql.Time.getMonth()
+@Deprecated(since="1.2") int java.sql.Time.getDay()
+@Deprecated(since="1.2") int java.sql.Time.getDate()
+@Deprecated(since="1.2") void java.sql.Time.setYear(int)
+@Deprecated(since="1.2") void java.sql.Time.setMonth(int)
+@Deprecated(since="1.2") void java.sql.Time.setDate(int)
+@Deprecated(since="1.2") java.sql.Timestamp(int,int,int,int,int,int,int)
+@Deprecated void javax.swing.tree.DefaultTreeSelectionModel.notifyPathChange(java.util.Vector,javax.swing.tree.TreePath)
+@Deprecated interface java.rmi.server.LoaderHandler
+@Deprecated java.lang.Class java.rmi.server.LoaderHandler.loadClass(java.lang.String)
+@Deprecated java.lang.Class java.rmi.server.LoaderHandler.loadClass(java.net.URL,java.lang.String)
+@Deprecated java.lang.Object java.rmi.server.LoaderHandler.getSecurityContext(java.lang.ClassLoader)
+@Deprecated class java.rmi.server.LogStream
+@Deprecated java.rmi.server.LogStream(java.lang.String,java.io.OutputStream)
+@Deprecated java.rmi.server.LogStream java.rmi.server.LogStream.log(java.lang.String)
+@Deprecated java.io.PrintStream java.rmi.server.LogStream.getDefaultStream()
+@Deprecated void java.rmi.server.LogStream.setDefaultStream(java.io.PrintStream)
+@Deprecated java.io.OutputStream java.rmi.server.LogStream.getOutputStream()
+@Deprecated void java.rmi.server.LogStream.setOutputStream(java.io.OutputStream)
+@Deprecated void java.rmi.server.LogStream.write(int)
+@Deprecated void java.rmi.server.LogStream.write(byte[],int,int)
+@Deprecated java.lang.String java.rmi.server.LogStream.toString()
+@Deprecated int java.rmi.server.LogStream.parseLevel(java.lang.String)
+@Deprecated class java.rmi.server.Operation
+@Deprecated java.rmi.server.Operation(java.lang.String)
+@Deprecated java.lang.String java.rmi.server.Operation.getOperation()
+@Deprecated java.lang.String java.rmi.server.Operation.toString()
+@Deprecated java.lang.Class java.rmi.server.RMIClassLoader.loadClass(java.lang.String)
+@Deprecated java.lang.Object java.rmi.server.RMIClassLoader.getSecurityContext(java.lang.ClassLoader)
+@Deprecated interface java.rmi.server.RemoteCall
+@Deprecated java.io.ObjectOutput java.rmi.server.RemoteCall.getOutputStream()
+@Deprecated void java.rmi.server.RemoteCall.releaseOutputStream()
+@Deprecated java.io.ObjectInput java.rmi.server.RemoteCall.getInputStream()
+@Deprecated void java.rmi.server.RemoteCall.releaseInputStream()
+@Deprecated java.io.ObjectOutput java.rmi.server.RemoteCall.getResultStream(boolean)
+@Deprecated void java.rmi.server.RemoteCall.executeCall()
+@Deprecated void java.rmi.server.RemoteCall.done()
+@Deprecated java.rmi.server.RemoteCall java.rmi.server.RemoteRef.newCall(java.rmi.server.RemoteObject,java.rmi.server.Operation[],int,long)
+@Deprecated void java.rmi.server.RemoteRef.invoke(java.rmi.server.RemoteCall)
+@Deprecated void java.rmi.server.RemoteRef.done(java.rmi.server.RemoteCall)
+@Deprecated class java.rmi.server.RemoteStub
+@Deprecated void java.rmi.server.RemoteStub.setRef(java.rmi.server.RemoteStub,java.rmi.server.RemoteRef)
+@Deprecated interface java.rmi.server.ServerRef
+@Deprecated interface java.rmi.server.Skeleton
+@Deprecated void java.rmi.server.Skeleton.dispatch(java.rmi.Remote,java.rmi.server.RemoteCall,int,long)
+@Deprecated java.rmi.server.Operation[] java.rmi.server.Skeleton.getOperations()
+@Deprecated class java.rmi.server.SkeletonMismatchException
+@Deprecated java.rmi.server.SkeletonMismatchException(java.lang.String)
+@Deprecated class java.rmi.server.SkeletonNotFoundException
+@Deprecated class java.rmi.server.SocketSecurityException
+@Deprecated java.rmi.server.RemoteStub java.rmi.server.UnicastRemoteObject.exportObject(java.rmi.Remote)
+@Deprecated void java.awt.AWTKeyStroke.registerSubclass(java.lang.Class)
+@Deprecated void java.awt.BorderLayout.addLayoutComponent(java.lang.String,java.awt.Component)
+@Deprecated void java.awt.CardLayout.addLayoutComponent(java.lang.String,java.awt.Component)
+@Deprecated java.awt.Checkbox java.awt.CheckboxGroup.getCurrent()
+@Deprecated void java.awt.CheckboxGroup.setCurrent(java.awt.Checkbox)
+@Deprecated int java.awt.Choice.countItems()
+@Deprecated void java.awt.Component.enable()
+@Deprecated void java.awt.Component.enable(boolean)
+@Deprecated void java.awt.Component.disable()
+@Deprecated void java.awt.Component.show()
+@Deprecated void java.awt.Component.show(boolean)
+@Deprecated void java.awt.Component.hide()
+@Deprecated java.awt.Point java.awt.Component.location()
+@Deprecated void java.awt.Component.move(int,int)
+@Deprecated java.awt.Dimension java.awt.Component.size()
+@Deprecated void java.awt.Component.resize(int,int)
+@Deprecated void java.awt.Component.resize(java.awt.Dimension)
+@Deprecated java.awt.Rectangle java.awt.Component.bounds()
+@Deprecated void java.awt.Component.reshape(int,int,int,int)
+@Deprecated java.awt.Dimension java.awt.Component.preferredSize()
+@Deprecated java.awt.Dimension java.awt.Component.minimumSize()
+@Deprecated void java.awt.Component.layout()
+@Deprecated boolean java.awt.Component.inside(int,int)
+@Deprecated java.awt.Component java.awt.Component.locate(int,int)
+@Deprecated void java.awt.Component.deliverEvent(java.awt.Event)
+@Deprecated boolean java.awt.Component.postEvent(java.awt.Event)
+@Deprecated boolean java.awt.Component.handleEvent(java.awt.Event)
+@Deprecated boolean java.awt.Component.mouseDown(java.awt.Event,int,int)
+@Deprecated boolean java.awt.Component.mouseDrag(java.awt.Event,int,int)
+@Deprecated boolean java.awt.Component.mouseUp(java.awt.Event,int,int)
+@Deprecated boolean java.awt.Component.mouseMove(java.awt.Event,int,int)
+@Deprecated boolean java.awt.Component.mouseEnter(java.awt.Event,int,int)
+@Deprecated boolean java.awt.Component.mouseExit(java.awt.Event,int,int)
+@Deprecated boolean java.awt.Component.keyDown(java.awt.Event,int)
+@Deprecated boolean java.awt.Component.keyUp(java.awt.Event,int)
+@Deprecated boolean java.awt.Component.action(java.awt.Event,java.lang.Object)
+@Deprecated boolean java.awt.Component.gotFocus(java.awt.Event,java.lang.Object)
+@Deprecated boolean java.awt.Component.lostFocus(java.awt.Event,java.lang.Object)
+@Deprecated boolean java.awt.Component.isFocusTraversable()
+@Deprecated void java.awt.Component.nextFocus()
+@Deprecated java.awt.ComponentOrientation java.awt.ComponentOrientation.getOrientation(java.util.ResourceBundle)
+@Deprecated int java.awt.Container.countComponents()
+@Deprecated java.awt.Insets java.awt.Container.insets()
+@Deprecated void java.awt.Container.layout()
+@Deprecated java.awt.Dimension java.awt.Container.preferredSize()
+@Deprecated java.awt.Dimension java.awt.Container.minimumSize()
+@Deprecated void java.awt.Container.deliverEvent(java.awt.Event)
+@Deprecated java.awt.Component java.awt.Container.locate(int,int)
+@Deprecated java.awt.Cursor.predefined
+@Deprecated void java.awt.Dialog.show()
+@Deprecated void java.awt.Dialog.hide()
+@Deprecated int java.awt.FontMetrics.getMaxDecent()
+@Deprecated java.awt.Frame.DEFAULT_CURSOR
+@Deprecated java.awt.Frame.CROSSHAIR_CURSOR
+@Deprecated java.awt.Frame.TEXT_CURSOR
+@Deprecated java.awt.Frame.WAIT_CURSOR
+@Deprecated java.awt.Frame.SW_RESIZE_CURSOR
+@Deprecated java.awt.Frame.SE_RESIZE_CURSOR
+@Deprecated java.awt.Frame.NW_RESIZE_CURSOR
+@Deprecated java.awt.Frame.NE_RESIZE_CURSOR
+@Deprecated java.awt.Frame.N_RESIZE_CURSOR
+@Deprecated java.awt.Frame.S_RESIZE_CURSOR
+@Deprecated java.awt.Frame.W_RESIZE_CURSOR
+@Deprecated java.awt.Frame.E_RESIZE_CURSOR
+@Deprecated java.awt.Frame.HAND_CURSOR
+@Deprecated java.awt.Frame.MOVE_CURSOR
+@Deprecated void java.awt.Frame.setCursor(int)
+@Deprecated int java.awt.Frame.getCursorType()
+@Deprecated java.awt.Rectangle java.awt.Graphics.getClipRect()
+@Deprecated int java.awt.List.countItems()
+@Deprecated void java.awt.List.addItem(java.lang.String)
+@Deprecated void java.awt.List.addItem(java.lang.String,int)
+@Deprecated void java.awt.List.clear()
+@Deprecated void java.awt.List.delItem(int)
+@Deprecated boolean java.awt.List.isSelected(int)
+@Deprecated boolean java.awt.List.allowsMultipleSelections()
+@Deprecated void java.awt.List.setMultipleSelections(boolean)
+@Deprecated java.awt.Dimension java.awt.List.preferredSize(int)
+@Deprecated java.awt.Dimension java.awt.List.preferredSize()
+@Deprecated java.awt.Dimension java.awt.List.minimumSize(int)
+@Deprecated java.awt.Dimension java.awt.List.minimumSize()
+@Deprecated void java.awt.List.delItems(int,int)
+@Deprecated int java.awt.Menu.countItems()
+@Deprecated int java.awt.MenuBar.countMenus()
+@Deprecated boolean java.awt.MenuComponent.postEvent(java.awt.Event)
+@Deprecated boolean java.awt.MenuContainer.postEvent(java.awt.Event)
+@Deprecated void java.awt.MenuItem.enable()
+@Deprecated void java.awt.MenuItem.enable(boolean)
+@Deprecated void java.awt.MenuItem.disable()
+@Deprecated java.awt.Rectangle java.awt.Polygon.getBoundingBox()
+@Deprecated boolean java.awt.Polygon.inside(int,int)
+@Deprecated void java.awt.Rectangle.reshape(int,int,int,int)
+@Deprecated void java.awt.Rectangle.move(int,int)
+@Deprecated void java.awt.Rectangle.resize(int,int)
+@Deprecated boolean java.awt.Rectangle.inside(int,int)
+@Deprecated void java.awt.ScrollPane.layout()
+@Deprecated int java.awt.Scrollbar.getVisible()
+@Deprecated void java.awt.Scrollbar.setLineIncrement(int)
+@Deprecated int java.awt.Scrollbar.getLineIncrement()
+@Deprecated void java.awt.Scrollbar.setPageIncrement(int)
+@Deprecated int java.awt.Scrollbar.getPageIncrement()
+@Deprecated void java.awt.TextArea.insertText(java.lang.String,int)
+@Deprecated void java.awt.TextArea.appendText(java.lang.String)
+@Deprecated void java.awt.TextArea.replaceText(java.lang.String,int,int)
+@Deprecated java.awt.Dimension java.awt.TextArea.preferredSize(int,int)
+@Deprecated java.awt.Dimension java.awt.TextArea.preferredSize()
+@Deprecated java.awt.Dimension java.awt.TextArea.minimumSize(int,int)
+@Deprecated java.awt.Dimension java.awt.TextArea.minimumSize()
+@Deprecated void java.awt.TextField.setEchoCharacter(char)
+@Deprecated java.awt.Dimension java.awt.TextField.preferredSize(int)
+@Deprecated java.awt.Dimension java.awt.TextField.preferredSize()
+@Deprecated java.awt.Dimension java.awt.TextField.minimumSize(int)
+@Deprecated java.awt.Dimension java.awt.TextField.minimumSize()
+@Deprecated java.lang.String[] java.awt.Toolkit.getFontList()
+@Deprecated java.awt.FontMetrics java.awt.Toolkit.getFontMetrics(java.awt.Font)
+@Deprecated void java.awt.Window.reshape(int,int,int,int)
+@Deprecated void java.awt.Window.show()
+@Deprecated void java.awt.Window.hide()
+@Deprecated boolean java.awt.Window.postEvent(java.awt.Event)
+@Deprecated void java.awt.Window.applyResourceBundle(java.util.ResourceBundle)
+@Deprecated void java.awt.Window.applyResourceBundle(java.lang.String)
+@Deprecated javax.swing.plaf.basic.BasicDesktopPaneUI.minimizeKey
+@Deprecated javax.swing.plaf.basic.BasicDesktopPaneUI.maximizeKey
+@Deprecated javax.swing.plaf.basic.BasicDesktopPaneUI.closeKey
+@Deprecated javax.swing.plaf.basic.BasicDesktopPaneUI.navigateKey
+@Deprecated javax.swing.plaf.basic.BasicDesktopPaneUI.navigateKey2
+@Deprecated javax.swing.plaf.basic.BasicInternalFrameUI.openMenuKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.upKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.downKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.leftKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.rightKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.homeKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.endKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.dividerResizeToggleKey
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.keyboardUpLeftListener
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.keyboardDownRightListener
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.keyboardHomeListener
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.keyboardEndListener
+@Deprecated javax.swing.plaf.basic.BasicSplitPaneUI.keyboardResizeToggleListener
+@Deprecated java.awt.event.ActionListener javax.swing.plaf.basic.BasicSplitPaneUI.createKeyboardUpLeftListener()
+@Deprecated java.awt.event.ActionListener javax.swing.plaf.basic.BasicSplitPaneUI.createKeyboardDownRightListener()
+@Deprecated java.awt.event.ActionListener javax.swing.plaf.basic.BasicSplitPaneUI.createKeyboardHomeListener()
+@Deprecated java.awt.event.ActionListener javax.swing.plaf.basic.BasicSplitPaneUI.createKeyboardEndListener()
+@Deprecated java.awt.event.ActionListener javax.swing.plaf.basic.BasicSplitPaneUI.createKeyboardResizeToggleListener()
+@Deprecated int javax.swing.plaf.basic.BasicSplitPaneUI.getDividerBorderSize()
+@Deprecated javax.swing.plaf.basic.BasicTabbedPaneUI.upKey
+@Deprecated javax.swing.plaf.basic.BasicTabbedPaneUI.downKey
+@Deprecated javax.swing.plaf.basic.BasicTabbedPaneUI.leftKey
+@Deprecated javax.swing.plaf.basic.BasicTabbedPaneUI.rightKey
+@Deprecated(since="9") java.awt.Rectangle javax.swing.plaf.basic.BasicTextUI.modelToView(javax.swing.text.JTextComponent,int)
+@Deprecated(since="9") java.awt.Rectangle javax.swing.plaf.basic.BasicTextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position.Bias)
+@Deprecated(since="9") int javax.swing.plaf.basic.BasicTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)
+@Deprecated(since="9") int javax.swing.plaf.basic.BasicTextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position.Bias[])
+@Deprecated javax.swing.plaf.basic.BasicToolBarUI.upKey
+@Deprecated javax.swing.plaf.basic.BasicToolBarUI.downKey
+@Deprecated javax.swing.plaf.basic.BasicToolBarUI.leftKey
+@Deprecated javax.swing.plaf.basic.BasicToolBarUI.rightKey
+@Deprecated java.lang.String javax.swing.AbstractButton.getLabel()
+@Deprecated void javax.swing.AbstractButton.setLabel(java.lang.String)
+@Deprecated void javax.swing.FocusManager.disableSwingFocusManager()
+@Deprecated boolean javax.swing.FocusManager.isFocusManagerEnabled()
+@Deprecated javax.swing.ImageIcon.component
+@Deprecated javax.swing.ImageIcon.tracker
+@Deprecated(since="9") boolean javax.swing.InputVerifier.shouldYieldFocus(javax.swing.JComponent)
+@Deprecated(since="9") class javax.swing.JApplet
+@Deprecated javax.swing.JComponent.AccessibleJComponent.accessibleFocusHandler
+@Deprecated boolean javax.swing.JComponent.isManagingFocus()
+@Deprecated void javax.swing.JComponent.setNextFocusableComponent(java.awt.Component)
+@Deprecated java.awt.Component javax.swing.JComponent.getNextFocusableComponent()
+@Deprecated boolean javax.swing.JComponent.requestDefaultFocus()
+@Deprecated void javax.swing.JComponent.enable()
+@Deprecated void javax.swing.JComponent.disable()
+@Deprecated void javax.swing.JComponent.reshape(int,int,int,int)
+@Deprecated void javax.swing.JComponent.hide()
+@Deprecated javax.swing.JMenuBar javax.swing.JInternalFrame.getMenuBar()
+@Deprecated void javax.swing.JInternalFrame.setMenuBar(javax.swing.JMenuBar)
+@Deprecated java.lang.Object[] javax.swing.JList.getSelectedValues()
+@Deprecated java.awt.Component javax.swing.JMenuBar.getComponentAtIndex(int)
+@Deprecated java.lang.String javax.swing.JPasswordField.getText()
+@Deprecated java.lang.String javax.swing.JPasswordField.getText(int,int)
+@Deprecated java.awt.Component javax.swing.JPopupMenu.getComponentAtIndex(int)
+@Deprecated void javax.swing.JRootPane.setMenuBar(javax.swing.JMenuBar)
+@Deprecated javax.swing.JMenuBar javax.swing.JRootPane.getMenuBar()
+@Deprecated javax.swing.JScrollPane javax.swing.JTable.createScrollPaneForTable(javax.swing.JTable)
+@Deprecated void javax.swing.JTable.sizeColumnsToFit(boolean)
+@Deprecated javax.swing.JViewport.backingStore
+@Deprecated boolean javax.swing.JViewport.isBackingStoreEnabled()
+@Deprecated void javax.swing.JViewport.setBackingStoreEnabled(boolean)
+@Deprecated javax.swing.KeyStroke javax.swing.KeyStroke.getKeyStroke(char,boolean)
+@Deprecated java.awt.Rectangle javax.swing.ScrollPaneLayout.getViewportBorderBounds(javax.swing.JScrollPane)
+@Deprecated java.awt.Component javax.swing.SwingUtilities.findFocusOwner(java.awt.Component)
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicBoolean.weakCompareAndSet(boolean,boolean)
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicInteger.weakCompareAndSet(int,int)
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicIntegerArray.weakCompareAndSet(int,int,int)
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicLong.weakCompareAndSet(long,long)
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicLongArray.weakCompareAndSet(int,long,long)
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicReference.weakCompareAndSet()
+@Deprecated(since="9") boolean java.util.concurrent.atomic.AtomicReferenceArray.weakCompareAndSet(int)
+@Deprecated javax.naming.Context.APPLET
+@Deprecated java.lang.Class java.lang.reflect.Proxy.getProxyClass(java.lang.ClassLoader,java.lang.Class[])
+@Deprecated void javax.sql.rowset.BaseRowSet.setUnicodeStream(int,java.io.InputStream,int)
+@Deprecated javax.sql.rowset.CachedRowSet.COMMIT_ON_ACCEPT_CHANGES
+@Deprecated void java.net.DatagramSocketImpl.setTTL(byte)
+@Deprecated byte java.net.DatagramSocketImpl.getTTL()
+@Deprecated java.net.HttpURLConnection.HTTP_SERVER_ERROR
+@Deprecated void java.net.MulticastSocket.setTTL(byte)
+@Deprecated byte java.net.MulticastSocket.getTTL()
+@Deprecated void java.net.MulticastSocket.send(java.net.DatagramPacket,byte)
+@Deprecated java.net.Socket(java.lang.String,int,boolean)
+@Deprecated java.net.Socket(java.net.InetAddress,int,boolean)
+@Deprecated void java.net.URLConnection.setDefaultRequestProperty(java.lang.String,java.lang.String)
+@Deprecated java.lang.String java.net.URLConnection.getDefaultRequestProperty(java.lang.String)
+@Deprecated java.lang.String java.net.URLDecoder.decode(java.lang.String)
+@Deprecated java.lang.String java.net.URLEncoder.encode(java.lang.String)
+@Deprecated void java.net.URLStreamHandler.setURL(java.net.URL,java.lang.String,java.lang.String,int,java.lang.String,java.lang.String)
+@Deprecated void java.awt.image.renderable.RenderContext.preConcetenateTransform(java.awt.geom.AffineTransform)
+@Deprecated void java.awt.image.renderable.RenderContext.concetenateTransform(java.awt.geom.AffineTransform)
+@Deprecated class javax.swing.text.DefaultTextUI
+@Deprecated(since="9") java.awt.Rectangle javax.swing.text.JTextComponent.modelToView(int)
+@Deprecated(since="9") int javax.swing.text.JTextComponent.viewToModel(java.awt.Point)
+@Deprecated java.awt.FontMetrics javax.swing.text.LabelView.getFontMetrics()
+@Deprecated(since="9") int javax.swing.text.PasswordView.drawUnselectedText(java.awt.Graphics,int,int,int,int)
+@Deprecated(since="9") int javax.swing.text.PasswordView.drawSelectedText(java.awt.Graphics,int,int,int,int)
+@Deprecated(since="9") int javax.swing.text.PasswordView.drawEchoCharacter(java.awt.Graphics,int,int,char)
+@Deprecated(since="9") void javax.swing.text.PlainView.drawLine(int,java.awt.Graphics,int,int)
+@Deprecated(since="9") int javax.swing.text.PlainView.drawUnselectedText(java.awt.Graphics,int,int,int,int)
+@Deprecated(since="9") int javax.swing.text.PlainView.drawSelectedText(java.awt.Graphics,int,int,int,int)
+@Deprecated class javax.swing.text.TableView.TableCell
+@Deprecated javax.swing.text.TableView.TableCell javax.swing.text.TableView.createTableCell(javax.swing.text.Element)
+@Deprecated(since="9") int javax.swing.text.Utilities.drawTabbedText(javax.swing.text.Segment,int,int,java.awt.Graphics,javax.swing.text.TabExpander,int)
+@Deprecated(since="9") int javax.swing.text.Utilities.getTabbedTextWidth(javax.swing.text.Segment,java.awt.FontMetrics,int,javax.swing.text.TabExpander,int)
+@Deprecated(since="9") int javax.swing.text.Utilities.getTabbedTextOffset(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)
+@Deprecated(since="9") int javax.swing.text.Utilities.getTabbedTextOffset(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int,boolean)
+@Deprecated(since="9") int javax.swing.text.Utilities.getBreakLocation(javax.swing.text.Segment,java.awt.FontMetrics,int,int,javax.swing.text.TabExpander,int)
+@Deprecated(since="9") int javax.swing.text.Utilities.getPositionAbove(javax.swing.text.JTextComponent,int,int)
+@Deprecated(since="9") int javax.swing.text.Utilities.getPositionBelow(javax.swing.text.JTextComponent,int,int)
+@Deprecated java.awt.Shape javax.swing.text.View.modelToView(int,java.awt.Shape)
+@Deprecated int javax.swing.text.View.viewToModel(float,float,java.awt.Shape)
+@Deprecated(since="9") void javax.swing.text.WrappedPlainView.drawLine(int,int,java.awt.Graphics,int,int)
+@Deprecated(since="9") int javax.swing.text.WrappedPlainView.drawUnselectedText(java.awt.Graphics,int,int,int,int)
+@Deprecated(since="9") int javax.swing.text.WrappedPlainView.drawSelectedText(java.awt.Graphics,int,int,int,int)
+@Deprecated(since="9", forRemoval=true) interface java.security.acl.Acl
+@Deprecated(since="9", forRemoval=true) interface java.security.acl.AclEntry
+@Deprecated(since="9", forRemoval=true) class java.security.acl.AclNotFoundException
+@Deprecated(since="9", forRemoval=true) interface java.security.acl.Group
+@Deprecated(since="9", forRemoval=true) class java.security.acl.LastOwnerException
+@Deprecated(since="9", forRemoval=true) class java.security.acl.NotOwnerException
+@Deprecated(since="9", forRemoval=true) interface java.security.acl.Owner
+@Deprecated(since="9", forRemoval=true) interface java.security.acl.Permission
+@Deprecated interface java.rmi.registry.RegistryHandler
+@Deprecated java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryStub(java.lang.String,int)
+@Deprecated java.rmi.registry.Registry java.rmi.registry.RegistryHandler.registryImpl(int)
+@Deprecated class javax.accessibility.AccessibleResourceBundle
+@Deprecated(since="9") java.awt.Rectangle javax.swing.plaf.TextUI.modelToView(javax.swing.text.JTextComponent,int)
+@Deprecated(since="9") java.awt.Rectangle javax.swing.plaf.TextUI.modelToView(javax.swing.text.JTextComponent,int,javax.swing.text.Position.Bias)
+@Deprecated(since="9") int javax.swing.plaf.TextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point)
+@Deprecated(since="9") int javax.swing.plaf.TextUI.viewToModel(javax.swing.text.JTextComponent,java.awt.Point,javax.swing.text.Position.Bias[])
+@Deprecated(since="9") java.lang.String javax.swing.plaf.TextUI.getToolTipText(javax.swing.text.JTextComponent,java.awt.Point)
+@Deprecated(since="9", forRemoval=true) javax.security.cert.X509Certificate[] javax.net.ssl.HandshakeCompletedEvent.getPeerCertificateChain()
+@Deprecated(since="9", forRemoval=true) javax.security.cert.X509Certificate[] javax.net.ssl.SSLSession.getPeerCertificateChain()

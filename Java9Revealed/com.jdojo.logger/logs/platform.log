@@ -1,0 +1,3 @@
+2017-02-09 10:45:52,413 INFO com.jdojo.logger.Log4jLogger [main] currency.properties entry for ABADCURRENCYFILE is ignored because of the invalid country code.
+2017-02-09 10:45:52,420 ERROR com.jdojo.logger.Log4jLogger [main] An unknwon error occurred.
+2017-02-09 10:45:52,420 INFO com.jdojo.logger.Log4jLogger [main] FYI
