@@ -1,0 +1,8 @@
+#standard help options information
+java -h 
+
+#nonstandard help options information
+#
+#use uppper x letter
+#!!! -> -X <--
+java -X

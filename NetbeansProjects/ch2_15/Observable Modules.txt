@@ -1,0 +1,26 @@
+// the list of observable modules 
+// they includes only the system modules
+java --list-modules
+
+java --module-path lib --list-modules
+//dist is a Netbease standart directory
+//Go to forinstance to ch2_13 directory
+//launch command line 
+java --module-path dist --list-modules
+
+
+java --module-path lib --list-modules claim
+//go to ch2_1 project dir
+//make jar project files into dist dir
+//launch terminal there and run this command
+//do not work (!) JDK 177 win64 :(
+
+java --module-path dist --list-modules 
+java --module-path dist --list-modules=jdojo.jpa
+
+java --module-path dist --describe-module jdojo.jpa
+java --module-path dist --validate-modules jdojo.jpa
+
+
+
+

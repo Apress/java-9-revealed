@@ -1,0 +1,1 @@
+Be ready for crashing of Netbeans IDE and some errors throwing by one.

@@ -1,0 +1,3 @@
+module claim {
+    requires policy;
+}

@@ -1,0 +1,14 @@
+// Using the GNU-style option
+java --module-path C:\applib;C:\lib other-args-go-here
+
+// Using the UNIX-style option
+java -p C:\applib;C:\extlib other-args-go-here
+
+// Using the GNU-style option
+java --module-path=C:\applib;C:\lib other-args-go-here
+
+//Valid module path
+java --module-path=C:\applib
+
+//Invalid module path
+java --module-path =C:\applib

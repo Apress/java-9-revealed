@@ -1,0 +1,5 @@
+
+
+module Q {
+    requires P;
+}
