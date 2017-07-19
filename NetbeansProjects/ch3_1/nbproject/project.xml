@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <name>ch3_1</name>
+        </general-data>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/2">
+            <!-- Не используйте средство настройки свойств проекта при редактировании файла вручную. 
+ Чтобы средство настройки не отображалось, создайте файл nbproject/project.properties и добавьте в него свойство 
+auxiliary.show.customizer=false. 
+Если добавлено свойство 
+auxiliary.show.customizer.message=<message>,
+ при попытке открытия средства настройки любым пользователем будет отображаться заданное сообщение.  -->
+            <name>ch3_1</name>
+            <properties/>
+            <folders>
+                <source-folder>
+                    <label>ch3_1</label>
+                    <location>.</location>
+                    <encoding>UTF-8</encoding>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="build">
+                    <target>default</target>
+                </action>
+            </ide-actions>
+            <view>
+                <items>
+                    <source-file>
+                        <location>build.xml</location>
+                    </source-file>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                </context-menu>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/1"/>
+    </configuration>
+</project>
