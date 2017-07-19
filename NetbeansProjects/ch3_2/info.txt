@@ -1,0 +1,10 @@
+//create jar
+jar --create --file dist/com.jdojo.intro-1.0.jar --main-class com.jdojo.intro.Welcome --module-version 1.0 -C build/modules/com.jdojo.intro .
+
+java --module-path dist/com.jdojo.intro --list-modules com.jdojo.intro
+
+java -jar dist/com.jdojo.intro-1.0.jar -p dist/com.jdojo.intro-1.0.jar -m com.jdojo.intro.Welcome
+
+
+
+

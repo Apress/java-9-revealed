@@ -1,0 +1,28 @@
+javac -d mods --module-source-path src src/com.jdojo.intro/module-info.java src/com.jdojo.intro/com/jdojo/intro/Welcome.java
+javac -d mods/com.jdojo.intro src/com.jdojo.intro/module-info.java src/com.jdojo.intro/com/jdojo/intro/Welcome.java
+
+//module-version
+javac --module-version 1.0 -d mods --module-source-path src src/com.jdojo.intro/module-info.java src/com.jdojo.intro/com/jdojo/intro/Welcome.java
+javac --module-version 1.0 -d mods/com.jdojo.intro src/com.jdojo.intro/module-info.java src/com.jdojo.intro/com/jdojo/intro/Welcome.java
+
+//check module version
+javap mods/com.jdojo.intro/module-info.class
+
+
+//create JAR
+jar --create --file lib/com.jdojo.intro-1.0.jar --main-class com.jdojo.intro.Welcome --module-version 1.0 -C mods/com.jdojo.intro .
+
+// Running the Program
+
+java --module-path mods --module com.jdojo.intro/com.jdojo.intro.Welcome
+java -p mods -m com.jdojo.intro/com.jdojo.intro.Welcome
+
+java -jar lib/com.jdojo.intro-1.0.jar --module-path lib/com.jdojo.intro-1.0.jar --module com.jdojo.intro.Welcome
+java -jar lib/com.jdojo.intro-1.0.jar --module-path lib/com.jdojo.intro-1.0.jar --module com.jdojo.intro.Welcome
+java -jar lib/com.jdojo.intro-1.0.jar -p lib/com.jdojo.intro-1.0.jar -m com.jdojo.intro.Welcome
+
+java --module-path lib --module com.jdojo.intro
+java -p lib -m com.jdojo.intro
+
+//do not worked (!!!)
+//java --class-path lib/com.jdojo.intro-1.0.jar
