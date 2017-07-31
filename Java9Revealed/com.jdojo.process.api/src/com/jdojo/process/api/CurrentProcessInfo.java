@@ -18,7 +18,7 @@ public class CurrentProcessInfo {
         
     public static void printInfo(ProcessHandle handle) {
         // Get the process ID
-        long pid = handle.getPid();
+        long pid = handle.pid();
         
         // Is the process still running
         boolean isAlive = handle.isAlive();

@@ -46,7 +46,7 @@ public class WebSocketClient {
          webSocket.request(1);
                 
         // Send the server a request for time
-        webSocket.sendText("Hello");
+        webSocket.sendText("Hello",true);
         
     }
 
@@ -66,7 +66,7 @@ public class WebSocketClient {
                                          int statusCode, String reason) {
                 // Server closed the web socket. Let us respond to 
                 // the close message from the server
-                webSocket.sendClose();
+                webSocket.sendClose(1000,"");
                 
                 System.out.println("The WebSocket is closed." +
                                    " Close Code: " + statusCode + 

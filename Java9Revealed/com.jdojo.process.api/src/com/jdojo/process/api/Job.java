@@ -45,7 +45,7 @@ public class Job {
             }
         }
 
-        long pid = ProcessHandle.current().getPid();
+        long pid = ProcessHandle.current().pid();
         System.out.printf("Job (pid=%d) info: Sleep Interval" +         
                           "=%d seconds, Sleep Duration=%d " +  
                           "seconds.%n", 
