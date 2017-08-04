@@ -1,0 +1,32 @@
+jmod create --class-path lib/com.jdojo.prime.jar jmod/com.jdojo.prime.jmod
+
+rm -f jmods/com.jdojo.prime.jmod || cd .. && jmod create --module-version 0.1 --class-path com.jdojo.prime/build/classes jmods/com.jdojo.prime.jmod
+
+jmod create --module-version 0.1 --class-path ../com.jdojo.prime/build/classes jmods/com.jdojo.prime.jmod
+
+#for windows
+#suppose you are in a parent folder
+jmod create --module-version 0.1 --class-path com.jdojo.prime\build\classes jmod1\jmod1\com.jdojo.prime.jmod
+
+
+#Extract 
+jmod extract --dir tmp jmods/com.jdojo.prime.jmod
+
+#List
+jmod list jmods/com.jdojo.prime.jmod
+
+#Desribe
+jmod describe jmods/com.jdojo.prime.jmod
+
+
+
+#Create jmod files
+
+jmod create --module-version 1.0 --class-path com.jdojo.prime/build/classes jmod1/jmods/com.jdojo.prime.jmod&& jmod create --module-version 1.0 --class-path com.jdojo.prime.generic/build/classes jmod1/jmods/com.jdojo.prime.generic.jmod && jmod create --module-version 1.0 --class-path com.jdojo.prime.faster/build/classes jmod1/jmods/com.jdojo.prime.faster.jmod && jmod create --main-class com.jdojo.prime.client.Main --module-version 1.0 --class-path com.jdojo.prime.client/build/classes jmod1/jmods/com.jdojo.prime.client.jmod && jmod hash --module-path jmod1/jmods --hash-modules com.jdojo.prime.? jmod1/jmods/com.jdojo.prime.jmod
+
+jmod create --module-version 1.0 --module-path jmod1/jmods --hash-modules com.jdojo.prime.? --class-path com.jdojo.prime/build/classes jmod1/jmods/com.jdojo.prime.jmod
+
+#Dry run
+jmod hash --dry-run --module-path jmod1/jmods --hash-modules com.jdojo.prime.? jmod1/jmods/com.jdojo.prime.jmod
+
+jmod describe jmod1/jmods/com.jdojo.prime.jmod

@@ -1,0 +1,36 @@
+There is a problems while using this command (NoSuchFileExeption):
+jar --create --file mrjars/com.jdojo.mrjar.jar -C com.jdojo.mrjar.jdk8/build/classes . --release 9 -C com.jdojo.mrjar.jdk9/build/classes .
+
+jar --create --file mrjars/com.jdojo.mrjar.jar -C com.jdojo.mrjar.jdk8/build/classes $(find com.jdojo.mrjar.jdk8/build/classes -name *.class)  --release 9 $(find com.jdojo.mrjar.jdk9/build/classes -name *.class)
+
+jar --create --file com.jdojo.mrjar.jdk9/dist/com.jdojo.mrjar.jar $(find com.jdojo.mrjar.jdk8/build/classes -name *.class) --release 9 $(find com.jdojo.mrjar.jdk9/build/classes -name *.class)
+
+This is a sequence of the commands to solve the problems:
+cd com.jdojo.mrjar.jdk8/build/classes && jar -c -f com.jdojo.mrjar.jar $(find -name *.class) && cd ../../.. && mv -f com.jdojo.mrjar.jdk8/build/classes/com.jdojo.mrjar.jar -t com.jdojo.mrjar.jdk9/build/classes  && cd com.jdojo.mrjar.jdk9/build/classes  && jar -u -f com.jdojo.mrjar.jar --release 9 $(find -name *.class) && cd ../../.. && mv -f com.jdojo.mrjar.jdk9/build/classes/com.jdojo.mrjar.jar -t com.jdojo.mrjar.jdk9/mrjars
+
+Step by step description
+
+#go to "com.jdojo.mrjar.jdk8/build/classes" folder
+cd com.jdojo.mrjar.jdk8/build/classes 
+
+#run jar command in this place
+jar -c -f com.jdojo.mrjar.jar $(find -name *.class) 
+
+#go back
+&& cd ../../.. 
+
+#move created jar file to an other folder
+mv -f com.jdojo.mrjar.jdk8/build/classes/com.jdojo.mrjar.jar -t com.jdojo.mrjar.jdk9/build/classes  
+
+#go to this folder
+cd com.jdojo.mrjar.jdk9/build/classes  
+
+#updating moved jar file
+jar -u -f com.jdojo.mrjar.jar --release 9 $(find -name *.class) 
+
+#go back
+cd ../../.. 
+
+#moving updated jar file to destination folder
+mv -f com.jdojo.mrjar.jdk9/build/classes/com.jdojo.mrjar.jar -t com.jdojo.mrjar.jdk9/mrjars
+

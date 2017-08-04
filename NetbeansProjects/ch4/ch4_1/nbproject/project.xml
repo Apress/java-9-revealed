@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.java.j2semodule</type>
+    <configuration>
+        <data xmlns="http://www.netbeans.org/ns/j2se-modular-project/1">
+            <name>ch4_1</name>
+            <source-roots>
+                <root id="src.dir" pathref="src.dir.path"/>
+            </source-roots>
+            <test-roots/>
+        </data>
+    </configuration>
+</project>

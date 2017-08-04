@@ -1,0 +1,11 @@
+jar --file dist/com.jdojo.address.jar --describe-module
+jar --file dist/com.jdojo.person.jar --describe-module
+
+java --list-modules -jar dist/com.jdojo.person.jar
+
+#Run
+java --module-path dist --add-modules com.jdojo.address --module com.jdojo.person/com.jdojo.person.Main -jar dist/com.jdojo.person.jar
+java --module-path dist --add-modules com.jdojo.address --module com.jdojo.person -jar dist/com.jdojo.person.jar
+java -p dist --add-modules com.jdojo.address -m com.jdojo.person -jar dist/com.jdojo.person.jar
+
+
