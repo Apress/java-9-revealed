@@ -22,7 +22,7 @@ jmod describe jmods/com.jdojo.prime.jmod
 
 #Create jmod files
 
-jmod create --module-version 1.0 --class-path com.jdojo.prime/build/classes jmod1/jmods/com.jdojo.prime.jmod&& jmod create --module-version 1.0 --class-path com.jdojo.prime.generic/build/classes jmod1/jmods/com.jdojo.prime.generic.jmod && jmod create --module-version 1.0 --class-path com.jdojo.prime.faster/build/classes jmod1/jmods/com.jdojo.prime.faster.jmod && jmod create --main-class com.jdojo.prime.client.Main --module-version 1.0 --class-path com.jdojo.prime.client/build/classes jmod1/jmods/com.jdojo.prime.client.jmod && jmod hash --module-path jmod1/jmods --hash-modules com.jdojo.prime.? jmod1/jmods/com.jdojo.prime.jmod
+jmod create --module-version 1.0 --class-path com.jdojo.prime/build/classes jmod1/jmods/com.jdojo.prime.jmod&& jmod create --module-version 1.0 --class-path com.jdojo.prime.generic/build/classes jmod1/jmods/com.jdojo.prime.generic.jmod && jmod create --module-version 1.0 --class-path com.jdojo.prime.faster/build/classes jmod1/jmods/com.jdojo.prime.faster.jmod && jmod create --main-class com.jdojo.prime.client.Main --module-version 1.0 --class-path com.jdojo.prime.client/build/classes jmod1/jmods/com.jdojo.prime.client.jmod && jmod hash --module-path jmod1/jmods --hash-modules com.jdojo.prime.? jmod1/jmods/com.jdojo.prime.jmod && jmod create --module-version 1.0 --class-path com.jdojo.prime.probable/build/classes jmod1/jmods/com.jdojo.probable.jmod
 
 jmod create --module-version 1.0 --module-path jmod1/jmods --hash-modules com.jdojo.prime.? --class-path com.jdojo.prime/build/classes jmod1/jmods/com.jdojo.prime.jmod
 
@@ -30,3 +30,10 @@ jmod create --module-version 1.0 --module-path jmod1/jmods --hash-modules com.jd
 jmod hash --dry-run --module-path jmod1/jmods --hash-modules com.jdojo.prime.? jmod1/jmods/com.jdojo.prime.jmod
 
 jmod describe jmod1/jmods/com.jdojo.prime.jmod
+
+
+jimage list --verbose primechecker/lib/modules
+
+jimage info --verbose primechecker/lib/modules
+
+jimage verify --verbose primechecker/lib/modules
